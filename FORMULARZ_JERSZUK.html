@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="utf-8">
+    <title>ANKIETA – INFORMATYKA I PROGRAMOWANIE</title>
+</head>
+
+<body bgcolor="#7D8FC2" text="#000000">
+
+<center>
+    <h1>ANKIETA – INFORMATYKA I PROGRAMOWANIE</h1>
+    <h3>Prosimy o wypełnienie ankiety</h3>
+</center>
+
+<form onsubmit="alert('Formularz został pomyślnie wysłany!');">
+<div style="accent-color: black;">
+
+<table border="1" cellpadding="10" align="center" width="800">
+<tr>
+<td>
+
+<h2>Dane użytkownika</h2>
+
+<b>Imię:</b>
+<input type="text" name="imie" size="30" style="background-color: white; color: black;" required>
+<br><br>
+
+<b>Nazwisko:</b>
+<input type="text" name="nazwisko" size="30" style="background-color: white; color: black;" required>
+<br><br>
+
+<hr>
+
+<h2>Pytania ankiety</h2>
+
+<b>1. Czy lubisz informatykę?</b><br><br>
+<input type="radio" name="pyt4" value="Tak"> a. Tak<br>
+<input type="radio" name="pyt4" value="Trochę"> b. Trochę<br>
+<input type="radio" name="pyt4" value="Nie"> c. Nie<br>
+<input type="radio" name="pyt4" value="Nie wiem"> d. Nie wiem<br><br>
+
+<b>2. Znasz programowanie?</b><br><br>
+<input type="radio" name="pyt5" value="Tak"> a. Tak<br>
+<input type="radio" name="pyt5" value="Trochę"> b. Trochę<br>
+<input type="radio" name="pyt5" value="Nie"> c. Nie<br>
+<input type="radio" name="pyt5" value="Nie wiem"> d. Nie wiem<br><br>
+
+<b>3. Co to jest komputer?</b><br><br>
+<input type="radio" name="pyt6" value="Urządzenie"> a. Urządzenie<br>
+<input type="radio" name="pyt6" value="Program"> b. Program<br>
+<input type="radio" name="pyt6" value="Gra"> c. Gra<br>
+<input type="radio" name="pyt6" value="Internet"> d. Internet<br><br>
+
+<b>4. Co oznacza błąd w programie?</b><br><br>
+<input type="radio" name="pyt7" value="Bug"> a. Bug<br>
+<input type="radio" name="pyt7" value="RAM"> b. RAM<br>
+<input type="radio" name="pyt7" value="CPU"> c. CPU<br>
+<input type="radio" name="pyt7" value="Plik"> d. Plik<br><br>
+
+<b>5. Co to jest program?</b><br><br>
+<input type="radio" name="pyt8" value="Ekran"> a. Ekran<br>
+<input type="radio" name="pyt8" value="Mysz"> b. Mysz<br>
+<input type="radio" name="pyt8" value="Instrukcja"> c. Instrukcja<br>
+<input type="radio" name="pyt8" value="Kabel"> d. Kabel<br><br>
+
+<b>6. Do czego służy RAM?</b><br><br>
+<input type="radio" name="pyt9" value="Pamięci"> a. Pamięci<br>
+<input type="radio" name="pyt9" value="Drukowania"> b. Drukowania<br>
+<input type="radio" name="pyt9" value="Pisania"> c. Pisania<br>
+<input type="radio" name="pyt9" value="Internetu"> d. Internetu<br><br>
+
+<b>7. Co służy do przechowywania plików?</b><br><br>
+<input type="radio" name="pyt10" value="Przeglądarka"> a. Przeglądarka<br>
+<input type="radio" name="pyt10" value="Monitor"> b. Monitor<br>
+<input type="radio" name="pyt10" value="Dysk"> c. Dysk<br>
+<input type="radio" name="pyt10" value="Klawiatura"> d. Klawiatura<br><br>
+
+<hr>
+
+<h2>Dodatkowe pytania</h2>
+
+<b>8. Jak często korzystasz z komputera?</b><br><br>
+<input type="radio" name="pyt11" value="Codziennie"> a. Codziennie<br>
+<input type="radio" name="pyt11" value="Kilka razy w tygodniu"> b. Kilka razy w tygodniu<br>
+<input type="radio" name="pyt11" value="Rzadko"> c. Rzadko<br>
+<input type="radio" name="pyt11" value="Wcale"> d. Wcale<br><br>
+
+<b>9. Czy chciałbyś nauczyć się programowania?</b><br><br>
+<input type="radio" name="pyt12" value="Tak"> a. Tak<br>
+<input type="radio" name="pyt12" value="Trochę"> b. Trochę<br>
+<input type="radio" name="pyt12" value="Nie"> c. Nie<br>
+<input type="radio" name="pyt12" value="Nie wiem"> d. Nie wiem<br><br>
+
+<b>10. Jakiego programu używasz najczęściej?</b><br><br>
+<input type="radio" name="pyt13" value="Przeglądarka internetowa"> a. Przeglądarki internetowej<br>
+<input type="radio" name="pyt13" value="Edytor tekstu"> b. Edytora tekstu<br>
+<input type="radio" name="pyt13" value="Gry"> c. Gier<br>
+<input type="radio" name="pyt13" value="Innego"> d. Innego<br><br>
+
+<small>Jeśli wybierzesz „Innego”, podaj jakiego (maksymalnie 50 słów):</small><br>
+<textarea name="pyt13_inne" rows="3" cols="60" style="background-color: white; color: black;"></textarea>
+<br><br>
+
+<b>11. Co najbardziej interesuje Cię w informatyce?</b><br><br>
+<input type="radio" name="pyt14" value="Programowanie"> a. Programowanie<br>
+<input type="radio" name="pyt14" value="Gry komputerowe"> b. Gry komputerowe<br>
+<input type="radio" name="pyt14" value="Sprzęt komputerowy"> c. Sprzęt komputerowy<br>
+<input type="radio" name="pyt14" value="Internet"> d. Internet<br><br>
+
+<b>12. Jak oceniasz swoją wiedzę informatyczną?</b><br><br>
+<input type="radio" name="pyt15" value="Bardzo dobrze"> a. Bardzo dobrze<br>
+<input type="radio" name="pyt15" value="Dobrze"> b. Dobrze<br>
+<input type="radio" name="pyt15" value="Średnio"> c. Średnio<br>
+<input type="radio" name="pyt15" value="Słabo"> d. Słabo<br><br>
+
+<hr>
+
+<h2>Opinia o formularzu</h2>
+
+<b>13. Jak oceniasz ten formularz?</b><br><br>
+<input type="radio" name="pyt1" value="Bardzo dobrze"> a. Bardzo dobrze<br>
+<input type="radio" name="pyt1" value="Dobrze"> b. Dobrze<br>
+<input type="radio" name="pyt1" value="Średnio"> c. Średnio<br>
+<input type="radio" name="pyt1" value="Źle"> d. Źle<br><br>
+
+<b>14. Co można poprawić?</b><br><br>
+<textarea name="poprawki" rows="4" cols="60" style="background-color: white; color: black;"></textarea>
+<br><br>
+
+<b>15. Twoja opinia:</b><br><br>
+<textarea name="twoja_opinia" rows="4" cols="60" style="background-color: white; color: black;"></textarea>
+<br><br>
+
+<b>16. Co sądzisz o tym formularzu? Co Ci się podoba, a co można poprawić? (maksymalnie 150 słów)</b>
+<br><br>
+
+<textarea name="opinia_formularz" rows="6" cols="60" style="background-color: white; color: black;"></textarea>
+<br>
+<small>Maksymalnie 150 słów.</small>
+<br><br>
+
+<center>
+    <input type="reset" value="Wyczyść formularz">
+    &nbsp;&nbsp;
+    <input type="submit" value="Wyślij formularz">
+</center>
+
+<br>
+
+<center>
+    <h3>DZIĘKUJEMY ZA UDZIAŁ!</h3>
+</center>
+
+</td>
+</tr>
+</table>
+
+</div>
+</form>
+
+</body>
+</html>
+```
